@@ -1,5 +1,4 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { StringOutputParser } from "@langchain/core/output_parsers";
 import { PromptTemplate } from "@langchain/core/prompts";
 import 'dotenv/config'
 import { RunnableMap } from "@langchain/core/runnables";
