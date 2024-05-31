@@ -33,7 +33,6 @@ const template = `文脈に基づいて質問に答えてください:
 質問: {question}`;
 const prompt = PromptTemplate.fromTemplate(template);
 
-
 // chain with pipe
 const formatDocs = (docs: Document[]) => docs.map((doc) => doc.pageContent);
 const retrievalChain = RunnableSequence.from([
